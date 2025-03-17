@@ -2,71 +2,10 @@
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&display=swap');
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    
-    color: #333;
+/* Apply the Playwrite HU font for the 'M' in the name */
+.font-playwrite {
+  font-family: 'Playwrite HU', serif;
+  font-style: italic;
 }
-
-header {
-    background-color: #333;
-    color: #504b4b;
-    text-align: center;
-    padding: 20px 0;
-}
-
-h1 {
-    font-size: 36px;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin-top: 20px;
-}
-
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    max-width: 1000px;
-}
-
-.name-container {
-    width: 50%;
-}
-
-h2 {
-    
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 18px;
-    color: #363535;
-}
-
-.image-container {
-    width: 40%;
-    text-align: center;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-  
-  
