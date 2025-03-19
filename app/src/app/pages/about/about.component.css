@@ -29,7 +29,7 @@ body {
     text-align: center;
     padding: 15px;
     border-radius: 10px;
-    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, #0b8593 91.1%);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
