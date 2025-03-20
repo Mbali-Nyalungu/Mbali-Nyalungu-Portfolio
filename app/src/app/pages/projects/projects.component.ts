@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NavbarComponent } from '../../ui/navbar/navbar.component';
+
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-projects',
@@ -8,5 +9,7 @@ import { NavbarComponent } from '../../ui/navbar/navbar.component';
   styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
+  }
 
-}
+
+ 
